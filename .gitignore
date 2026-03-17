@@ -1,0 +1,133 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyc
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+sdist/
+var/
+*.egg
+*.eggs/
+*.manifest
+*.spec
+*.mo
+*.pot
+*.log
+*.pot~
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+pip-selfcheck.json
+
+# PyInstaller / cx_Freeze / Py2exe
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+*.coverage.*
+coverage/
+.tox/
+.nox/
+.cache
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# PyCharm / IntelliJ
+.idea/
+*.iml
+*.iws
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries/
+.idea/shelf/
+.idea/modules.xml
+.idea/dataSources/
+.idea/dataSources.ids
+.idea/sqlDataSources.xml
+.idea/datasources.xml
+.idea/scopes/
+.idea/inspectionProfiles/
+.idea/markdown-navigator/
+.idea/vcs.xml
+.idea/.name
+.idea/compiler.xml
+.idea/misc.xml
+.idea/modules/
+.idea/uiDesigner.xml
+.idea/sonarlint/
+
+# macOS junk
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows junk
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# VS Code (if you also use it sometimes)
+.vscode/
+
+# Database / local files
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.bak
+
+# Dependency directories (if you ever commit them by mistake)
+lib/
+libs/
+node_modules/     # ← in case someone mixes frontend/backend
+
+# Personal / temporary files
+*.swp
+*.swo
+*~
+.~*
+*.bak
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Jupyter Notebooks checkpoints (if you use notebooks)
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Poetry / Pipenv
+poetry.lock       # ← usually committed, but some teams ignore it
+Pipfile.lock
+
+# Hatch / PDM / other modern tools
+.hatch/
+.pdm-python/
+.pdm-build/
